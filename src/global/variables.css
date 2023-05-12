@@ -1,0 +1,59 @@
+/* These variables are generated from https://family-js.web.app/docs/theming/color-generator */
+
+:root {
+	--fml-color-primary: #3880ff;
+	--fml-color-primary-rgb: 56,128,255;
+	--fml-color-primary-contrast: #ffffff;
+	--fml-color-primary-contrast-rgb: 255,255,255;
+	--fml-color-primary-shade: #3171e0;
+	--fml-color-primary-tint: #4c8dff;
+
+	--fml-color-secondary: #5260ff;
+	--fml-color-secondary-rgb: 82,96,255;
+	--fml-color-secondary-contrast: #ffffff;
+	--fml-color-secondary-contrast-rgb: 255,255,255;
+	--fml-color-secondary-shade: #4854e0;
+	--fml-color-secondary-tint: #6370ff;
+
+	--fml-color-tertiary: #5260ff;
+	--fml-color-tertiary-rgb: 82,96,255;
+	--fml-color-tertiary-contrast: #ffffff;
+	--fml-color-tertiary-contrast-rgb: 255,255,255;
+	--fml-color-tertiary-shade: #4854e0;
+	--fml-color-tertiary-tint: #6370ff;
+
+	--fml-color-success: #2dd36f;
+	--fml-color-success-rgb: 45,211,111;
+	--fml-color-success-contrast: #000000;
+	--fml-color-success-contrast-rgb: 0,0,0;
+	--fml-color-success-shade: #28ba62;
+	--fml-color-success-tint: #42d77d;
+
+	--fml-color-warning: #ffc409;
+	--fml-color-warning-rgb: 255,196,9;
+	--fml-color-warning-contrast: #000000;
+	--fml-color-warning-contrast-rgb: 0,0,0;
+	--fml-color-warning-shade: #e0ac08;
+	--fml-color-warning-tint: #ffca22;
+
+	--fml-color-danger: #eb445a;
+	--fml-color-danger-rgb: 235,68,90;
+	--fml-color-danger-contrast: #ffffff;
+	--fml-color-danger-contrast-rgb: 255,255,255;
+	--fml-color-danger-shade: #cf3c4f;
+	--fml-color-danger-tint: #ed576b;
+
+	--fml-color-medium: #92949c;
+	--fml-color-medium-rgb: 146,148,156;
+	--fml-color-medium-contrast: #000000;
+	--fml-color-medium-contrast-rgb: 0,0,0;
+	--fml-color-medium-shade: #808289;
+	--fml-color-medium-tint: #9d9fa6;
+
+	--fml-color-light: #f4f5f8;
+	--fml-color-light-rgb: 244,245,248;
+	--fml-color-light-contrast: #000000;
+	--fml-color-light-contrast-rgb: 0,0,0;
+	--fml-color-light-shade: #d7d8da;
+	--fml-color-light-tint: #f5f6f9;
+}
