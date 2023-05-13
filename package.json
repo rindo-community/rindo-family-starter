@@ -12,9 +12,9 @@
   },
   "devDependencies": {
     "@familyjs/core": "^6.7.0",
-    "@rindo/core": "^2.18.1",
+    "@rindo/core": "^3.2.0",
     "@types/jest": "^27.0.3",
-    "famicons": "^6.1.3",
+    "famicons": "^7.1.2",
     "jest": "^27.0.3",
     "jest-cli": "^27.4.5",
     "puppeteer": "^19.8.0"
