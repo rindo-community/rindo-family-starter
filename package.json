@@ -11,13 +11,13 @@
     "generate": "rindo generate"
   },
   "devDependencies": {
-    "@familyjs/core": "^6.7.0",
-    "@rindo/core": "^3.2.0",
-    "@types/jest": "^27.0.3",
+    "@familyjs/core": "^7.0.1",
+    "@rindo/core": "^3.4.1",
+    "@types/jest": "~27.0.3",
     "famicons": "^7.1.2",
-    "jest": "^27.0.3",
-    "jest-cli": "^27.4.5",
-    "puppeteer": "^19.8.0"
+    "jest": "~27.0.3",
+    "jest-cli": "~27.4.5",
+    "puppeteer": "^20.4.0"
   },
   "license": "MIT"
 }

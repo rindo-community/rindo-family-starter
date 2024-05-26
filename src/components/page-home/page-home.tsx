@@ -1,4 +1,4 @@
-import { Component, Fragment, h, State } from '@rindo/core';
+import { Component, Fragment, h, State } from '@rindo/core'
 
 @Component({
   tag: 'page-home',
@@ -40,7 +40,10 @@ export class PageHome {
         <fml-content class="fml-padding">
           <p>Welcome to Rindo App Starter.</p>
           <fml-list>
-            <fml-radio-group value={this.mode} onFmlChange={e => this.setMode(e.detail.value)}>
+            <fml-radio-group
+              value={this.mode}
+              onIonChange={e => this.setMode(e.detail.value)}
+            >
               <fml-list-header>
                 <fml-label>Theme Mode</fml-label>
               </fml-list-header>
@@ -48,16 +51,13 @@ export class PageHome {
                 (Changing theme will reload the whole app.)
               </fml-note>
               <fml-item>
-                <fml-label>Auto Detect</fml-label>
-                <fml-radio value='auto'></fml-radio>
+                <fml-radio value="auto">Auto Detect</fml-radio>
               </fml-item>
               <fml-item>
-                <fml-label>Material Design</fml-label>
-                <fml-radio value='md'></fml-radio>
+                <fml-radio value="md">Material Design</fml-radio>
               </fml-item>
               <fml-item>
-                <fml-label>iOS</fml-label>
-                <fml-radio value='ios'></fml-radio>
+                <fml-radio value="ios">iOS</fml-radio>
               </fml-item>
             </fml-radio-group>
           </fml-list>
@@ -72,7 +72,6 @@ export class PageHome {
           </fml-list>
         </fml-content>
       </Fragment>
-    );
+    )
   }
-
 }
